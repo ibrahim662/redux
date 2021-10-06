@@ -12,7 +12,7 @@ const AddDel = (state = <div></div>, action) => {
             onClick={() => {
               const div = document.getElementById("box");
               div.parentNode.removeChild(div);
-
+              localStorage.clear();
             }}
           >
             delete box
