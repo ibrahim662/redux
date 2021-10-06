@@ -24,8 +24,6 @@ const AddDel = (state = <div></div>, action) => {
           </button>
         </div>
       );
-    case "DELETEBOX":
-      return <div>no added</div>;
     default:
       return state;
   }
